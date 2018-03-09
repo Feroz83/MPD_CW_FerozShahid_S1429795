@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Feroz Shahid - S1429795 </!-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colourgradient_bg"
+    tools:context="labstaff.gcu.feroz.org.ferozshahid_mobilecw.MainActivity">
+
+        <TextView
+            android:id="@+id/HardcodedStudentID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feroz Shahid - S1429795"
+            android:padding="5dp"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_red_dark"/>
+    <!-- Feroz Shahid - S1429795 </!-->
+        <TextView
+            android:id="@+id/WelcomeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HardcodedStudentID"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:textSize="45sp"
+            android:text="Welcome"
+            android:textColor="@android:color/white" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/infotext"
+        android:layout_below="@+id/WelcomeTitle"
+        android:padding="10dp"
+        android:src="@drawable/ic_car"/>
+
+        <TextView
+            android:id="@+id/infotext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/currentIncidentsBtn"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:text="@string/welcometext"
+            android:textColor="@android:color/white" />
+    <!-- Feroz Shahid - S1429795 </!-->
+        <Button
+            android:id="@+id/currentIncidentsBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/button_style_cyan"
+            android:layout_margin="20dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:padding="25dp"
+            android:text="Start" />
+
+    </RelativeLayout>

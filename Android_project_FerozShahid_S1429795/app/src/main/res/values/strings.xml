@@ -1,0 +1,8 @@
+<!-- Feroz Shahid - S1429795 </!-->
+<resources>
+    <string name="app_name">FerozShahid_MobileCW</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="welcometext">Get information about Current Incidents or Planned Roadworks in Scotland
+        from Traffic Scotland.</string>
+    <string name="title_activity_backarrowtest">backarrowtest</string>
+</resources>

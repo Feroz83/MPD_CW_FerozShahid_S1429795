@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Feroz Shahid - S1429795 </!-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colourgradient_bg"
+    tools:context="labstaff.gcu.feroz.org.ferozshahid_mobilecw.MainActivity">
+
+    <RelativeLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/HardcodedStudentID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feroz Shahid - S1429795"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="@android:color/holo_red_dark"/>
+        <!-- Feroz Shahid - S1429795 </!-->
+        <TextView
+            android:id="@+id/WelcomeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="45sp"
+            android:textAlignment="center"
+            android:text="Welcome"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/infotext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/WelcomeTitle"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:textSize="18sp"
+            android:text="@string/welcometext"
+            android:textColor="@android:color/white" />
+        <!-- Feroz Shahid - S1429795 </!-->
+        <Button
+            android:id="@+id/currentIncidentsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style_cyan"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/infotext"
+            android:layout_margin="20dp"
+            android:padding="40dp"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:text="Start" />
+
+    </RelativeLayout>
+
+</ScrollView>

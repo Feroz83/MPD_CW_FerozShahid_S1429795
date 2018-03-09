@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Feroz Shahid - S1429795 </!-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:background="@android:color/holo_orange_light">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/selectedBackBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:drawableStart="@drawable/ic_arrow_back"
+            android:background="@color/lightCyan"/>
+        <TextView
+            android:id="@+id/HardcodedStudentID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feroz Shahid - S1429795"
+            android:background="@color/lightCyan"
+            android:padding="15dp"
+            android:layout_toEndOf="@+id/selectedBackBtn"
+            android:textColor="@android:color/holo_red_dark"/>
+        <!-- Feroz Shahid - S1429795 </!-->
+        <TextView
+            android:id="@+id/selectedItemTitle"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/selectedBackBtn"
+            android:padding="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@color/lightBlue"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:text="Title Here"/>
+        <TextView
+            android:id="@+id/selectedItemDate"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/selectedItemTitle"
+            android:textAlignment="center"
+            android:background="@color/lightBlue"
+            android:textColor="@android:color/white"
+            android:paddingBottom="5dp"
+            android:textSize="15sp"
+            android:text="Date"/>
+        <TextView
+            android:id="@+id/titleDesc"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_below="@+id/selectedItemDate"
+            android:paddingTop="15dp"
+            android:background="@android:color/holo_orange_light"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Description"/>
+        <TextView
+            android:id="@+id/selectedItemDesc"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:layout_below="@id/titleDesc"
+            android:background="@android:color/holo_orange_light"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:text="Description goes here"/>
+        <!-- Feroz Shahid - S1429795 </!-->
+        <TextView
+            android:id="@+id/titleMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/selectedItemTitle"
+            android:background="@color/green"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:text="MAP"
+            android:textSize="20sp"
+            android:padding="10dp"/>
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            android:layout_toEndOf="@+id/selectedItemTitle"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/selectedMap"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_below="@+id/titleMap"
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            tools:context="labstaff.gcu.feroz.org.ferozshahid_mobilecw.MapsActivity" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Feroz Shahid - S1429795 </!-->
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#0288D1</color>
+    <color name="lightBlue">#0288D1</color>
+    <color name="red">#D50000</color>
+    <color name="orange">#EF6C00</color>
+    <color name="amber">#FFC107</color>
+    <color name="yellow">#FFEA00</color>
+    <color name="green">#AEEA00</color>
+    <color name="darkGreen">#1B5E20</color>
+    <color name="lightCyan">#B2EBF2</color>
+</resources>
