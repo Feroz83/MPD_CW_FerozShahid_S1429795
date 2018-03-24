@@ -44,8 +44,8 @@ public class getInformation extends AppCompatActivity implements DatePickerDialo
 {
     private ProgressDialog progressDialog;
     private String selectedUrl=null;
-    private String currentIncidents ="https://trafficscotland.org/rss/feeds/currentincidents.aspx";
-    private String plannedRoadWorksUrl="https://trafficscotland.org/rss/feeds/plannedroadworks.aspx";
+    private String currentIncidents ="http://trafficscotland.org/rss/feeds/currentincidents.aspx";
+    private String plannedRoadWorksUrl="http://trafficscotland.org/rss/feeds/plannedroadworks.aspx";
     private String result = "";
     private Button backBtn, searchBtn, currentInBtn, plannedRdBtn;
     private ListView listView;
